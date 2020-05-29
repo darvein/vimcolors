@@ -1,7 +1,3 @@
-" Vim color file
-" Maintainer:  Camilla Löwy <elmindreda@elmindreda.org>
-" Last Change: 2017 Aug 20
-
 set bg=dark
 hi clear
 if exists("syntax_on")
@@ -27,9 +23,9 @@ hi Error        guibg=#ff8000                                    ctermbg=brown
 hi CursorLine   guifg=#001000  guibg=#008000  ctermfg=black      ctermbg=green
 
 " Splitter
-hi StatusLine   guifg=#000000  guibg=#20a020  ctermfg=black      ctermbg=green      gui=none  term=none      cterm=none
-hi StatusLineNC guifg=#000000  guibg=#006000  ctermfg=black      ctermbg=darkgreen  gui=none  term=none      cterm=none
-hi VertSplit    guifg=#000000  guibg=#006000  ctermfg=black      ctermbg=darkgreen  gui=none  term=none      cterm=none
+hi StatusLine   guifg=#000000  guibg=#20a020  ctermfg=black      ctermbg=green      cterm=bold  term=none
+hi StatusLineNC guifg=#000000  guibg=#006000  ctermfg=black      ctermbg=darkgreen  cterm=bold  term=none
+hi VertSplit    guifg=#000000  guibg=#006000  ctermfg=black      ctermbg=darkgreen  cterm=bold  term=none
 
 " Popup menu
 hi Pmenu        guifg=#80ff80  guibg=#002000  ctermfg=lightgreen ctermbg=darkgreen
@@ -42,9 +38,9 @@ hi Comment      guifg=#40a040                 ctermfg=darkgreen  ctermbg=bg
 hi Constant     guifg=#008000                 ctermfg=lightgreen
 hi Special      guifg=#30ff30                 ctermfg=lightgreen
 hi Identifier   guifg=#007000                 ctermfg=green
-hi Statement    guifg=#40ff40                 ctermfg=green                         gui=none
+hi Statement    guifg=#40ff40                 ctermfg=green                         cterm=bold
 hi PreProc      guifg=#00c000                 ctermfg=green
-hi Type         guifg=#30ff30                 ctermfg=lightgreen                    gui=none
+hi Type         guifg=#30ff30                 ctermfg=lightgreen                    cterm=bold
 hi Underlined                                                                                 term=underline cterm=underline
 hi Ignore       guifg=bg                      ctermfg=bg
 hi Operator     guifg=#30ff30                 ctermfg=lightgreen
