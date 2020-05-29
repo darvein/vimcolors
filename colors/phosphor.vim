@@ -38,9 +38,11 @@ hi Comment      guifg=#40a040                 ctermfg=darkgreen  ctermbg=bg
 hi Constant     guifg=#008000                 ctermfg=lightgreen
 hi Special      guifg=#30ff30                 ctermfg=lightgreen
 hi Identifier   guifg=#007000                 ctermfg=green
-hi Statement    guifg=#40ff40                 ctermfg=green                         cterm=bold
+hi Statement    guifg=#33cc33                 ctermfg=green                         cterm=bold
+"hi Statement    guifg=#40ff40                 ctermfg=green                         cterm=bold
 hi PreProc      guifg=#00c000                 ctermfg=green
-hi Type         guifg=#30ff30                 ctermfg=lightgreen                    cterm=bold
+"hi Type         guifg=#30ff30                 ctermfg=lightgreen                    cterm=bold
+hi Type         guifg=#26cc26                 ctermfg=lightgreen                    cterm=bold
 hi Underlined                                                                                 term=underline cterm=underline
 hi Ignore       guifg=bg                      ctermfg=bg
 hi Operator     guifg=#30ff30                 ctermfg=lightgreen
@@ -68,3 +70,6 @@ hi link SpecialChar    Special
 hi link Delimiter      Special
 hi link SpecialComment Special
 hi link Debug          Special
+
+hi EndOfBuffer ctermfg=None
+hi Normal guibg=NONE ctermbg=NONE
